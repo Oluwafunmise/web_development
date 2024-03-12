@@ -1,0 +1,29 @@
+h1{
+
+    color: white
+}
+img{
+    width: 100vw;
+    height: 100vh;
+}
+body{
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+}
+nav{
+    color: white;
+    grid-area: nav;
+    text-align: justify;
+    padding: 0%;
+}
+
+main{
+    color: white;
+    font-size: 50%;
+}
+nav ul li{
+    display: flex;
+
+    justify-content: space-around;
+
+}

@@ -10,7 +10,7 @@ img{
     height: 100vh;
 }
 body{
-    background-image: url("wallpaper.jpg");
+    background-image: url("background_image.jpeg");
     background-size: cover;
     display: grid;
 
@@ -39,4 +39,7 @@ footer{
 }
 a{
     text-decoration: none;
-}
+    /* color: rgb(245, 233, 233); */
+    font-size: 50px;
+    color: rgb(9, 9, 37);
+} 

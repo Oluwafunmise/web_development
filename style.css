@@ -1,5 +1,9 @@
-h1{
-    color: white
+header h1{
+    color: white;
+    font-weight: bold;
+    /* border: 8px solid grey; */
+    /* border-radius: 50%; */
+    border-bottom: 8px solid grey;
 }
 img{
     width: 100vw;
@@ -18,10 +22,11 @@ nav{
     padding: 0%;
 }
 
-main.p{
-    color: white;
-    font-size: 20px;
-}       
+main.h1{
+    color: rgb(209, 40, 40);
+    font-size: 50px;
+    font-weight: normal;
+}   
 nav ul li{
     display: flex;
     justify-content: space-around;
@@ -31,4 +36,7 @@ nav ul li{
 footer{
     color: white;
     font-size: 20px;
+}
+a{
+    text-decoration: none;
 }

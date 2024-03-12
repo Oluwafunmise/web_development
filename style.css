@@ -4,6 +4,7 @@ header h1{
     /* border: 8px solid grey; */
     /* border-radius: 50%; */
     border-bottom: 8px solid grey;
+    display: inline;
 }
 img{
     width: 100vw;
@@ -26,11 +27,13 @@ main.h1{
     color: rgb(209, 40, 40);
     font-size: 50px;
     font-weight: normal;
+    display: inline;
 }   
 nav ul li{
     display: flex;
     justify-content: space-around;
     grid-area: nav;
+    display: inline;
 
 }
 footer{

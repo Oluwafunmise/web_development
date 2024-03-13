@@ -11,7 +11,7 @@ header h1{
     /* border-radius: 50%; */
     border-bottom: 8px solid grey;
     display: inline;
-    border-radius: 10em;
+    border-radius: 5sem;
 }
 img{
     width: 100vw;

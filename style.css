@@ -3,22 +3,28 @@
     padding: 0;
 }
 
+header{
+    grid-area: header;
 
+}
 header h1{
     color: white;
     font-weight: bold;
-    /* border: 8px solid grey; */
-    /* border-radius: 50%; */
+    border: 8px solid grey;
     border-bottom: 8px solid grey;
-    display: inline;
+    display: block;
     border-radius: 5em;
+
+}
+header h2 {
+    color: white;
 }
 img{
     width: 100vw;
     height: 100vh;
 }
 body{
-    background-image: url("background_image.jpeg");
+    background-image: url("Images/background_image.jpeg");
     background-size: cover;
     display: grid;
 
@@ -30,12 +36,12 @@ nav{
     padding: 0%;
 }
 
-main.h1{
+/* main.h1{
     color: rgb(209, 40, 40);
     font-size: 50px;
     font-weight: normal;
     display: inline;
-}   
+}    */
 nav ul li{
     display: flex;
     justify-content: space-around;
@@ -47,6 +53,7 @@ nav ul li{
 footer{
     color: white;
     font-size: 1em;
+    grid-area: footer;
 }
 a{
     text-decoration: none;

@@ -3,10 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bungee+Hairline&family=Sixtyfour&display=swap');
 
 
-/* :root {
-    --blue: #1e90ff;
-    --white: #ffffff;
-} */
+:root {
+    --background2: #706C61 ;
+    --background1: #5e5757 ;
+}
 * {
     margin: 0;
     padding: 0;
@@ -58,7 +58,7 @@ nav{
     grid-area: nav;
     padding: 0%;
     /* background-color: #1D263B; */
-    background-color: #857F74;
+    /* background-color: #857F74; */
     justify-content: space-around;
     text-transform: none;
     display: flex;

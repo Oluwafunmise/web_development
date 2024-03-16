@@ -85,12 +85,22 @@ nav ul li{
     background-color: #5e5757;
     border-radius: 100%;
 }
+
+/* SHOWS WHAT PAGE YOU ARE ON  */
+.current a {
+    background-color: #706C61;
+    border-radius: 50%;
+
+}
+
 main{
     grid-area: main;
 }
 .homepage_main{
     text-align: center;
 }
+
+
 .about_me{
     color: white;
     margin-bottom: 6em;
@@ -169,4 +179,5 @@ footer div{
 }
 .copywrite{
     text-align: center;
+    margin-top: 0.5em;
 }

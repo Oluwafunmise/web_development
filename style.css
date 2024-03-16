@@ -17,10 +17,9 @@ header h1{
     display: block;
     text-align: center;
     font-size: 4em;
-    font-family: "Sixtyfour", sans-serif;
+    font-family: "bungee hairline", sans-serif;
     font-weight: 400;
     font-style: normal;
-    /* bungee hairline */
 
 }
 
@@ -29,41 +28,40 @@ header h2 {
     color: white;
     text-align: center;
 }
-img{
-    width: 100vw;
-    height: 100vh;
-}
+
+
 body{
-    background-image: url("Images/background_image.jpeg");
+    background-image: url("Images/background_image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     display: grid;
-    grid-template-columns: 30% 40% 30%;
+    grid-template-columns: 70% 30%;
     grid-template-rows: auto;
     grid-template-areas: 
     
-    "nav nav nav"
-    "header header header"
-    "footer footer footer"
+    "nav nav "
+    "header header"
+    "aside aside"
+    "main main"
+    "footer  footer"
     ;
 
 }
 nav{
     color: white;
     grid-area: nav;
-    text-align: justify;
     padding: 0%;
-    background-color: #857F74;
+    /* background-color: #1D263B; */
+    /* background-color: #857F74; */
     justify-content: space-around;
     text-transform: none;
+    display: flex;
 
 }
-/* main.h1{
-    color: rgb(209, 40, 40);
-    font-size: 50px;
-    font-weight: normal;
-    display: inline;
-}    */
+.navbar {
+    list-style: none;
+}
 nav ul li{
     display: grid;
     padding: 3em;
@@ -72,13 +70,41 @@ nav ul li{
     font-size: 0.5em;
 
 }
+.navbar ul li a{
+    text-decoration: none;
+    font-size: 4em;
+    color: white;
+} 
+.navbar ul li a:hover{
+    margin: 0.2em;
+    background-color: grey;
+}
+main{
+    grid-area: main;
+}
+.homepage_main{
+    text-align: center;
+}
+.about_me{
+    color: white;
+    margin-bottom: 6em;
+    text-align: center;
+}
+aside{ 
+    grid-area: aside;
+    text-align: center;
+}
+.displaypicture{
+    border-radius:50%;
+    width: 25em;
+    height: 25em;
+    margin-top: 7em;
+}
 footer{
     color: white;
     font-size: 1em;
     grid-area: footer;
 }
-a{
-    text-decoration: none;
-    font-size: 4em;
-    color: white;
-} 
+.copywrite{
+    text-align: center;
+}

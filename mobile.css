@@ -180,7 +180,12 @@ main.project {
 .sitereport h2{
     width: 95vw;
 }
-.sitereport a  {
+.validationCon img {
+    width: 19.7%;
+    transition: ease-in 1s;
+    
+}
+.checkout a  {
         text-align: center;
         background-color: #4f4a4a ;
         /* margin: 4.5em 12em; */

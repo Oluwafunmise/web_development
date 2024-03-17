@@ -246,7 +246,27 @@ form{
     width: 30%;
     display: grid;
     row-gap: 0.5em;
-    grid-template-columns: 100%;
-
-    
+    grid-template-columns: 100%;  
   }
+
+main.project {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    column-gap: 1em;
+    row-gap: 1em;
+
+    margin: 4em 20em;
+}
+div img {
+    width: 80%;
+    height: 60%;
+} 
+main div {
+    border: 3px solid white; 
+    padding: 2em;
+}
+.lastproject{
+    margin: 1.3em;
+    margin-right: 0.4em;
+}

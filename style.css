@@ -63,28 +63,42 @@ nav{
     justify-content: space-around;
     text-transform: none;
     display: flex;
+ 
 
 }
 .navbar {
+    color: white;
+    grid-area: nav;
+    padding: 0%;
+    /* background-color: #1D263B; */
+    /* background-color: #857F74; */
+    justify-content: space-around;
+    text-transform: none;
+    display: flex;
     list-style: none;
 }
+
 nav ul li{
     display: grid;
     padding: 3em;
     display: inline;
     text-align: center;
     font-size: 0.5em;
+    
 
 }
 .navbar ul li a{
     text-decoration: none;
     font-size: 4em;
     color: white;
+    transition: 2s;
 } 
 .navbar ul li a:hover{
     margin: 0.2em;
-    background-color: #5e5757;
+    /* background-color: #5e5757; */
+    background-color: #4f4a4a;
     border-radius: 100%;
+    
 }
 /* Animation for background color */
 @keyframes navBackgroundAnimation {
@@ -109,7 +123,6 @@ main{
 .homepage_main{
     text-align: center;
 }
-
 
 .about_me{
     color: white;
@@ -145,7 +158,7 @@ aside a:hover{
 }
 footer{
     color: white;
-    /* font-size: 1em; */
+    font-size: 1em;
     grid-area: footer;
 }
 footer {
@@ -206,6 +219,8 @@ footer div{
     margin-top: 0.5em;
 }
 
+/* CONTACT  */
+
 label{
     color: white;
 }
@@ -236,6 +251,7 @@ label{
 .contact_form {
     display: grid;
     margin: 2em 23em;
+    row-gap: 0.1em;
     
 }
 button{
@@ -257,7 +273,7 @@ form{
     row-gap: 0.5em;
     grid-template-columns: 100%;  
   }
-
+/* PROJECT */
 main.project {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -279,6 +295,8 @@ main div {
     margin: 1.3em;
     margin-right: 0.4em;
 }
+
+/* DEMONSTRATION  */
 .demo{
     text-align: center;
     margin-top: 2em;

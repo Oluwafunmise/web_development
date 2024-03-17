@@ -246,8 +246,8 @@ label{
         background-color: var(--background2);
         margin: 4.5em 12em;
         border-radius: 50px;
-        
 }
+     
 .contact_form {
     display: grid;
     margin: 2em 23em;
@@ -257,6 +257,7 @@ label{
 button{
     margin: 0em 8em;
     border-radius: 50px;
+    background-color: #4f4a4a;
 }
 input{
     border-radius: 5px;
@@ -295,7 +296,28 @@ main div {
     margin: 1.3em;
     margin-right: 0.4em;
 }
+/* SITE REPORT */
+.sitereport {
+    color: black;
+    background-color: white;
+    display: grid;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
 
+
+
+.sitereport a {
+    text-align: center;
+    background-color: #4f4a4a ;
+    /* margin: 4.5em 12em; */
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    margin: 0em 29em;
+    border-radius: 50px;
+
+}
 /* DEMONSTRATION  */
 .demo{
     text-align: center;

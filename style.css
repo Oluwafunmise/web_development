@@ -86,7 +86,16 @@ nav ul li{
     background-color: #5e5757;
     border-radius: 100%;
 }
+/* Animation for background color */
+@keyframes navBackgroundAnimation {
+    0% { background-color: #333; }
+    50% { background-color: #555; }
+    100% { background-color: #333; }
+}
 
+.navbar ul li a.animated {
+    animation: navBackgroundAnimation 8s linear  infinite;
+}
 /* SHOWS WHAT PAGE YOU ARE ON  */
 .current a {
     background-color: #706C61;
@@ -269,4 +278,12 @@ main div {
 .lastproject{
     margin: 1.3em;
     margin-right: 0.4em;
+}
+.demo{
+    text-align: center;
+    margin-top: 2em;
+}
+.demo p{
+    margin-top: 2em;
+    font-size: 1.3em;
 }

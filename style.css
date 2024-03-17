@@ -38,6 +38,7 @@ header h2 {
 body{
     background-image: url("Images/background_image.jpg");
     background-size: cover;
+    color: white;
     background-repeat: no-repeat;
     background-position: center;
     display: grid;
@@ -49,7 +50,7 @@ body{
     "header header"
     "aside aside"
     "main main"
-    "footer  footer"
+    "footer footer"
     ;
 
 }
@@ -108,10 +109,24 @@ main{
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
     font-weight: normal;
+    margin-top: 0.5em;
 }
 aside{ 
     grid-area: aside;
     text-align: center;
+}
+aside a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0.1em solid white;
+    margin: 0.5em 42em;
+    border-radius: 50px;
+}
+aside a:hover{
+    background-color: rgb(124, 118, 118);
 }
 .displaypicture{
     border-radius:50%;
@@ -181,3 +196,57 @@ footer div{
     text-align: center;
     margin-top: 0.5em;
 }
+
+label{
+    color: white;
+}
+.contact_main h2{
+    font-family: "bungee hairline", sans-serif;
+    font-size: 4em;    
+}
+.line{
+    border-top: 0.2em solid white;
+    margin: 0em 20em;
+    border-radius: 50px;
+    border-color: var(--background1);
+    margin-bottom: 0.2em;
+
+}
+.contact_main p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5em;
+
+}
+.contact_main  {
+        text-align: center;
+        background-color: var(--background2);
+        margin: 4.5em 12em;
+        border-radius: 50px;
+        
+}
+.contact_form {
+    display: grid;
+    margin: 2em 23em;
+    
+}
+button{
+    margin: 0em 8em;
+    border-radius: 50px;
+}
+input{
+    border-radius: 5px;
+}
+textarea{
+    border-radius: 10px;
+}
+/* input [type="submit"]{
+    ;
+} */
+form{
+    width: 30%;
+    display: grid;
+    row-gap: 0.5em;
+    grid-template-columns: 100%;
+
+    
+  }
